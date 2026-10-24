@@ -99,7 +99,29 @@ Every push to `main` redeploys the API automatically.
 - **CORS:** `Access-Control-Allow-Origin: *` lets any browser app call the API.
 
 ## Screenshots
-![GET tasks](screenshots/get-tasks.png)
-![POST task, 201](screenshots/post-201.png)
-![Validation error, 400](screenshots/error-400.png)
-![Vercel dashboard](screenshots/vercel.png)
+## Screenshots
+Create a task (201 Created)
+
+
+![POST 201](post-201.png)
+
+
+
+Validation error (400 Bad Request)
+
+
+![Error 400](error-400.png)
+
+
+
+Update a task (200 OK)
+
+
+![PUT 200](put-200.png)
+
+
+
+Vercel deployment (Ready)
+
+
+![Vercel](vercel.png)
