@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/tasks/:id", "destination": "/api/tasks?id=:id" }
+  ],
+  "functions": {
+    "api/tasks.js": { "maxDuration": 10 }
+  }
+}
